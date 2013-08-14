@@ -37,7 +37,7 @@
 
 		jQuery(document).ready(function()
 		{
-			jQuery('div.wiki a, div.attachments a, div.journal ul.details a, a.external').each(handleAnchor);
+			jQuery('div.attachments a, a.external').each(handleAnchor);
 		});
 	}
 	else
